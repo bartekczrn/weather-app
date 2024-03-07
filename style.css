@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #A7A7A7;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    
+}
+
+button, input {
+    border: none;
+    padding: 10px 25px 10px 25px;
+}
+
+input {
+    background-color: #E3E3E3;
+
+    border-radius: 90px 0 0 90px;
+
+    width: 400px;
+
+    color: #5E5E5E;
+
+    font-size: 25px;
+    font-weight: 200;
+
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #929292;
+    border-radius: 0 90px 90px 0;
+    color: white;
+
+    font-size: 25px;
+    font-weight: 200;
+
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #FFFFFF;
+    color: black;
+
+    width: 90%;
+    max-width: 1500px;
+
+    margin: 100px auto 0;
+
+    text-align: center;
+
+    border-radius: 50px;
+    border: solid 3px grey;
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #5E5E5E;
+
+    width: 65%;
+
+    padding: 50px 0px 50px 0px;
+}
+
+.right  {
+    
+
+    background-color: #E3E3E3;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    width: 35%;
+
+    padding: 50px 60px 50px 60px;
+    border-radius: 0 47px 47px 0;
+
+}
+
+.right img {
+    width: 75px;
+}
+
+
+.rightRow {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.temperatureRow {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    width: 50px;
+}
+
+
+.bottomRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.weather {
+    display: none;
+}
+
+.invalid {
+    display: none;
+}
+
+
+
+h1, h2, h3, h4, p {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 95px;
+}
+
+
+h2 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+
+h3 {
+    font-size: 60px;
+}
+
+h4, p {
+    font-size: 35px;
+}
+
+
+
+.city {
+    margin-top: 70px;
+}
+
+.temperatureRow {
+    margin-top: 35px;
+}
+
+.temperature {
+    margin-left: 40px;
+}
+
+.state {
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1150px) {
+    main {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .left {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right {
+        width: 100%;
+
+        margin-top: 40px;
+
+        border-radius: 0px 0 48px 48px ;
+    }
+
+    .rightRow {
+        margin-top: 10px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 650px) {
+    input {
+        width: 150px;
+    }
+
+    button, input {
+        border: none;
+        padding: 10px 20px 10px 20px;
+        }
+
+    h1 {
+        font-size: 55px;
+    }
+    
+    
+    h2 {
+        font-size: 45px;
+        font-weight: 500;
+    }
+    
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    h4, p {
+        font-size: 20px;
+    }
+
+    .temperatureRow {
+        flex-direction: column;
+    }
+
+    .temperature {
+        margin: 0;
+    }
+
+    .right img {
+        width: 50px;
+    }
+
+    .right {
+        padding: 30px;
+    }
+
+  } 
