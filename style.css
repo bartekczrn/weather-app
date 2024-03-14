@@ -11,7 +11,6 @@ body {
 .search {
     display: flex;
     justify-content: center;
-    
 }
 
 button, input {
@@ -21,16 +20,11 @@ button, input {
 
 input {
     background-color: #E3E3E3;
-
     border-radius: 90px 0 0 90px;
-
     width: 400px;
-
     color: #5E5E5E;
-
     font-size: 25px;
     font-weight: 200;
-
     text-transform: uppercase;
 }
 
@@ -38,27 +32,20 @@ button {
     background-color: #929292;
     border-radius: 0 90px 90px 0;
     color: white;
-
     font-size: 25px;
     font-weight: 200;
-
     cursor: pointer;
 }
 
 main {
     display: flex;
     flex-direction: row;
-
     background-color: #FFFFFF;
     color: black;
-
     width: 90%;
     max-width: 1500px;
-
     margin: 100px auto 0;
-
     text-align: center;
-
     border-radius: 50px;
     border: solid 3px grey;
 }
@@ -68,26 +55,18 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     color: #5E5E5E;
-
     width: 65%;
-
     padding: 50px 0px 50px 0px;
 }
 
 .right  {
-    
-
     background-color: #E3E3E3;
     width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
-
     width: 35%;
-
     padding: 50px 60px 50px 60px;
     border-radius: 0 47px 47px 0;
 
@@ -97,30 +76,22 @@ main {
     width: 75px;
 }
 
-
 .rightRow {
     display: flex;
     flex-direction: row;
-
     align-items: center;
     justify-content: space-between;
 }
 
-
-
-
 .temperatureRow {
     display: flex;
-
     align-items: center;
     justify-content: center;
 }
 
-
 img {
     width: 50px;
 }
-
 
 .bottomRow {
     display: flex;
@@ -128,8 +99,6 @@ img {
     justify-content: center;
     text-align: center;
 }
-
-
 
 .weather {
     display: none;
@@ -139,8 +108,6 @@ img {
     display: none;
 }
 
-
-
 h1, h2, h3, h4, p {
     font-weight: 300;
 }
@@ -149,12 +116,10 @@ h1 {
     font-size: 95px;
 }
 
-
 h2 {
     font-size: 80px;
     font-weight: 500;
 }
-
 
 h3 {
     font-size: 60px;
@@ -163,8 +128,6 @@ h3 {
 h4, p {
     font-size: 35px;
 }
-
-
 
 .city {
     margin-top: 70px;
@@ -182,12 +145,7 @@ h4, p {
     margin-top: 35px;
 }
 
-
-
-
-
-
-
+/* QUERIES */
 @media only screen and (max-width: 1150px) {
     main {
         flex-direction: column;
@@ -203,9 +161,7 @@ h4, p {
 
     .right {
         width: 100%;
-
         margin-top: 40px;
-
         border-radius: 0px 0 48px 48px ;
     }
 
@@ -213,8 +169,6 @@ h4, p {
         margin-top: 10px;
     }
   }
-
-
 
   @media only screen and (max-width: 650px) {
     input {
@@ -224,18 +178,16 @@ h4, p {
     button, input {
         border: none;
         padding: 10px 20px 10px 20px;
-        }
+    }
 
     h1 {
         font-size: 55px;
     }
     
-    
     h2 {
         font-size: 45px;
         font-weight: 500;
     }
-    
     
     h3 {
         font-size: 30px;
@@ -260,5 +212,5 @@ h4, p {
     .right {
         padding: 30px;
     }
-
   } 
+/* QUERIES */
