@@ -5,9 +5,7 @@ const serachBox = document.querySelector(".search input");
 const serachButton = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weatherIcon");
 
-
 async function checkWeather(city) {
-
     if (!city) {
         // Handle the case where the input is blank
         document.querySelector(".invalid").style.display = "block";
@@ -22,7 +20,6 @@ async function checkWeather(city) {
     } else{
         document.querySelector(".invalid").style.display="none";
     }
-
 
     var data = await response.json();
 
